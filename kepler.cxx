@@ -1,8 +1,7 @@
 //
 //  main.cpp
 //  Home8
-//  e wählen; nehme e=0.5
-//  Keppler, zwei Körper kreisen umeinander
+
 //
 
 #include<cmath>
@@ -11,7 +10,7 @@
 
 using namespace std;
 void Hamilton(const double p1,const double p2,const double q1,const double q2,double H);
-
+// bei der Wahl von p/q ist bestimmt was falsch...
 int main(){
     const double dt = 0.0005;
     const double e=0.5;
